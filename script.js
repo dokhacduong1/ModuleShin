@@ -1,12 +1,12 @@
-import { submitShin1 } from "./Form.js"
 
 
+import { submitShin } from "./shin.js"
 
 
 const shinSubmit = document.querySelector(".shin-submit")
 shinSubmit.addEventListener("click",(e)=>{
     e.preventDefault()
-    const test =submitShin1(e)
+    const test =submitShin(e)
     console.log(test)
 })
 
