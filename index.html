@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="shin.css">
+    <link rel="stylesheet" href="localstyle.css">
 </head>
-<body>
-   
-    <form id="form1" class="shin-form">
-        <div class="shin-form-item" label="Id Shop" name="idShop">
-            <input>
-        </div>
-        <div class="shin-form-item" label="Tên Shop Nguồn" name="nameShop">
-            <input>
-        </div>
-       <button type="submit" class="shin-submit">Submit</button>
-    </form>
-    <hr>
 
-    <script type="module" src="script.js"></script> 
-    <script src="https://shinmodule.vercel.app/shin.js"></script>
-    <!-- <script type="module" src="shin.js"></script> -->
+<body>
+    <div class="form-div">
+            <form id="form1" class="shin-form" onsubmit="handleSubmit(event)">
+                <div class="shin-form-item" label="Id Shop:" name="idShop">
+                    <input>
+                </div>
+                <div class="shin-form-item" label="Tên Shop:" name="nameShop">
+                    <input>
+                </div>
+                <div class="shin-form-item" label="Tên Shop:" name="nameShop">
+                    <input>
+                </div>
+                <div class="shin-form-item" label="Tên Shop:" name="nameShop">
+                    <input>
+                </div>
+                <div class="shin-form-item" label="Tên Shop:" name="nameShop">
+                    <input>
+                </div>
+                <div class="shin-form-item" label="Tên Shop:" name="nameShop">
+                    <input>
+                </div>
+                <div class="shin-form-item" label="Tên Shop:" name="nameShop">
+                    <input>
+                </div>
+                <button type="submit" class="shin-submit">Submit</button>
+            </form>
+       
+    </div>
+
+
+
+    <script type="module" src="script.js"></script>
+    <!-- <script src="https://shinmodule.vercel.app/shin.js"></script> -->
+    <script type="module" src="shin.js"></script>
 </body>
+
 </html>
