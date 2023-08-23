@@ -1,6 +1,6 @@
 
 
-import { submitShin } from "./shin.js"
+
 
 
 const shinSubmit = document.querySelector(".shin-submit")

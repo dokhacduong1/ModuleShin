@@ -29,7 +29,7 @@ shinFormItem.forEach(ItemFor => {
     }
 })
 
-export function submitShin (e){
+function submitShin (e){
     function handleSubmitShin(){
         const shinForm = e.target.parentNode
         const shinFormItem = shinForm.querySelectorAll(".shin-form-item")
