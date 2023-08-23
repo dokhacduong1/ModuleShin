@@ -29,6 +29,10 @@ shinFormItem.forEach(ItemFor => {
     }
 })
 
+
+ /**
+     * @param e Sự Kiện Khi Ấn Submit Trong Form
+ */
 function submitShin (e){
     function handleSubmitShin(){
         const shinForm = e.target.parentNode
