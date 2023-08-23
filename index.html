@@ -13,26 +13,20 @@
 </head>
 
 <body>
+    <script>
+        
+const handleSubmit = (e)=>{
+    const dataForm = submitShin(e)
+    console.log(dataForm)
+}
+    </script>
     <div class="form-div">
             <form id="form1" class="shin-form" onsubmit="handleSubmit(event)">
                 <div class="shin-form-item" label="Id Shop:" name="idShop">
                     <input>
                 </div>
                 <button type="submit" class="shin-submit">Submit</button>
-            </form>
-         <form id="form2" class="shin-form" onsubmit="handleSubmit1(event)">
-                <div class="shin-form-item" label="Id Shop:" name="idShop">
-                    <input>
-                </div>
-                <button type="submit" class="shin-submit">Submit</button>
-            </form>
-            <form id="form3" class="shin-form" onsubmit="handleSubmit2(event)">
-                <div class="shin-form-item" label="Id Shop:" name="idShop">
-                    <input>
-                </div>
-                <button type="submit" class="shin-submit">Submit</button>
-            </form>
-       
+            </form> 
     </div>
 
 
