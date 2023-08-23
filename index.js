@@ -1,1 +1,3 @@
-import "./Components/Form.js"
+
+import {submitShin} from "./Components/Form.js"
+export {submitShin}
