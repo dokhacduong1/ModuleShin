@@ -36,6 +36,7 @@ shinFormItem.forEach(ItemFor => {
     * @param e Sự Kiện Khi Ấn Submit Trong Form
 */
 function submitShin(e) {
+    e.preventDefault();
     function handleSubmitShin() {
         const shinForm = e.target
         const shinFormItem = shinForm.querySelectorAll(".shin-form-item")
