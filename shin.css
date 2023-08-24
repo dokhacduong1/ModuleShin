@@ -4,22 +4,28 @@
     box-sizing: border-box;
 }
 
+
+
+/* Đây là phần css FORM */
 .shin-form {
     display: inline-block;
     background: #e6e6e6;
     border-radius: 8px;
-   
+
     padding: 20px 30px;
     max-width: calc(100vw - 40px);
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
 .shin-form-item {
     margin-bottom: 24px;
     display: flex;
     justify-content: left;
     align-items: center;
+    flex-wrap: wrap;
 }
+
 .shin-form-item label {
     margin-right: 8px;
     max-width: 100%;
@@ -28,16 +34,32 @@
     font-weight: 700;
 
 }
-.shin-form-item input{
+
+.shin-form-item input {
     border: none;
     padding: 5px;
     border-radius: 6px;
+   
 }
+.shin-form-item input[type=file]::file-selector-button {
+    border: none;
+     padding: 10px;
+     border-radius: 5px;
+     cursor: pointer;
+     background-color: #000000;
+     color: white;
+     transition: all 0.3s;
+ }
+.shin-form-item input[type=file]::file-selector-button:hover {
+     background-color: #bebdbd;
+     color: rgb(0, 0, 0);
+ }
 
 .shin-form-item input[type='radio'] {
     accent-color: #232323;
 }
-.shin-form button{
+
+.shin-form button {
     border: none;
     padding: 20px;
     background-color: #000000;
@@ -47,9 +69,84 @@
     width: 100%;
     transition: all 0.3s;
 }
-.shin-form button:hover{
+
+.shin-form button:hover {
     transition: all 0.3s;
     background-color: #bebdbd;
     color: rgb(0, 0, 0);
+
+}
+/* -------------------------------- */
+
+/* Đây Là Button */
+
+.shin-button {
+    border: none;
+    padding: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: #000000;
+    color: white;
+}
+
+.shin-button:hover {
+    background-color: #bebdbd;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s;
+
+}
+
+.shin-input {
    
+    border: none;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #000000;
+}
+
+.shin-input[type='radio'],
+.shin-input[type='checkbox']
+{
+    accent-color: #232323;
+}
+.shin-input[type='file']{
+    cursor: pointer;
+}
+.shin-input[type=file]::file-selector-button {
+   border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    transition: all 0.3s;
+}
+.shin-input[type=file]::file-selector-button:hover {
+    background-color: #bebdbd;
+    color: rgb(0, 0, 0);
+}
+/* -------------------------------- */
+
+/* Đây Là CSS CARD */
+.shin-card{
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    list-style: none;
+    position: relative;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: 1px solid #ebe9e9; 
+}
+/* -------------------------------- */
+
+/* Đây là CSS Section Main */
+.shin-main{
+    background-color: #f5f5f5;
+    width: 100%;
 }

@@ -5,33 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="shin.css"> -->
+    <link rel="stylesheet" href="shin.css">
     <link rel="stylesheet" href="localstyle.css">
 
-    <link rel="stylesheet" href="https://shinmodule.vercel.app/shin.css">
+    <!-- <link rel="stylesheet" href="https://shinmodule.vercel.app/shin.css"> -->
 
 </head>
 
-<body>
-    <script>
-        
-const handleSubmit = (e)=>{
-    const dataForm = submitShin(e)
-    console.log(dataForm)
-}
-    </script>
-    <div class="form-div">
+<body class="shin-main">
+   
+        <div class="form-div">
             <form id="form1" class="shin-form" onsubmit="handleSubmit(event)">
                 <div class="shin-form-item" label="Id Shop:" name="idShop">
                     <input>
                 </div>
+                <div class="shin-form-item" label="Name Shop:" name="nameShop">
+                    <input>
+                </div>
                 <button type="submit" class="shin-submit">Submit</button>
-            </form> 
-    </div>
-
-
-
-    <script  src="script.js"></script>
+            </form>
+        </div>
+        
+        <div class="odas">
+            <div class="shin-card">
+                <div class="box_ok">
+                    <div class="box_ok2">
+                        <input class="shin-input" placeholder="input" type="text">
+                        <button class="shin-button">Button One</button>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+       
+        <div class="box_ok">
+            <div class="box_ok2">
+                <input class="shin-input" placeholder="input" type="text">
+                <button class="shin-button">Button One</button>
+            </div>
+           
+        </div>
+    
+   
+    <script src="script.js"></script>
     <script src="https://shinmodule.vercel.app/shin.js"></script>
 
     <!-- <script type="module"  src="script.js"></script> -->

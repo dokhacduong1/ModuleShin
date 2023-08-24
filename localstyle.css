@@ -1,0 +1,12 @@
+.box_ok{
+    
+   
+}
+.box_ok2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.odas{
+    margin-bottom: 50px;
+}
