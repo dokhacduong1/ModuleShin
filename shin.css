@@ -106,7 +106,8 @@
 }
 
 .shin-input[type='radio'],
-.shin-input[type='checkbox']
+.shin-input[type='checkbox'],
+.shin-input[type='range']
 {
     accent-color: #232323;
 }
